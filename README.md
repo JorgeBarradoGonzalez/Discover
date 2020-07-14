@@ -15,20 +15,26 @@ My final year project when studying app development. Discover is a social platfo
 
 <img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/0_SiluetaDiscover.png" width="300">
     
+    
 ### Login Screen
 
-<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/2_Login.PNG" width="300">
+<img align="center" src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/2_Login.PNG" width="300">
+A standard Login Activity.
+
 
 ### Empty Main Activity
 
 <img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/3_EmptyMainActivity.PNG" width="300">
+This is the main activity if you have not published anything yet or if you do not follow other users who did.
 
-### Main Activity
+
+### Filled Main Activity
 
 <img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/4_MainFilled.PNG" width="300">
+This is the main activity with information of the shares published by the users.
+
 
 ### "Shares"
-
 <img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/5_LikeRICKY.PNG" width="300">
 
 
