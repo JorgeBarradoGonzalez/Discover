@@ -64,4 +64,6 @@ The lists are built using RecyclerView <a>https://developer.android.com/referenc
 
 A couple of annotation regarding Shares:
 
-    1 The video contained in the 'Share' card, is 
+1. The video contained in the 'Share' card, is playable thanks to the library android-youtube-player of the user PierfrancescoSoffritti <a>https://github.com/PierfrancescoSoffritti/android-youtube-player</a> The insertion of the video was intended also with Youtube API but it was not possible. I looked for alternatives and this was the best I found. I completely recommend the library. It is flexible so you can modify it if you so need.
+
+2. Shares information is filled in the RecyclerView process. Several threads are called for this purpouse, including if the Share the user is seeing is already liked by them.
