@@ -102,5 +102,43 @@ The artist's bio is selected by default. If you select Music, the inferior panel
 
 <img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/10_ShareDenzel.PNG" width="300">
 
-The button placed on the inferior right corner of the main activity is the "Share Button". If pressed, it will open a new activity with a search bar. This searched bar acts a a Youtube Search bar. You can input and search whatever the user feels like, but only videdos following the format 'Artist/s - Song Name' will be accepted to be shared and sent to the server.
+The button placed on the inferior right corner of the main activity is the "Share Button". If pressed, it will open a new activity with a search bar. This searched bar acts a a Youtube Search bar. You can input and search whatever the user feels like, but only videdos following the format 'Artist/s - Song Title' will be accepted to be shared and sent to the server.
 
+Users can attach a comment to the post. I actually have to change the color palette on the comment input dialog.
+
+<br>
+
+### Comments
+
+<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/20_CommentsPanel.png" width="600">
+
+If the 'See Comments' button is pressed, the Comments Activity will open. With the post info, every view will be inflated and filled with the corresponding information. Again, if the post is liked by the user, this is translated to the interface. This activity is a standard comment activity.
+
+
+<br>
+
+### Main Activity Actions
+
+<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/14_Opciones.PNG" width="300">
+
+There are activities non related to posts. These are:
+
+* Find User
+* Notifications
+* Profile
+* End Session (Action)
+
+<br>
+
+### Search users
+
+<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/21_SearchUserPanel.png" width="600">
+
+This activity has a searched bar that will search for users registered in the Discover app.
+
+<br>
+
+* Find User
+* Notifications
+* Profile
+* End Session (Action)
