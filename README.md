@@ -84,7 +84,23 @@ This modication exists because from Discover you can follow or unfollow an artis
 
 <br>
 
-### Artist Profile
+### Artist Profile\Bio
 
 <img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/7_DenzelProfile.PNG" width="300">
+
+The artist's bio is shown using LastFM API <a>https://www.last.fm/api/</a> and parsing the received info. To clarify, the Artist Profile does not need an Spotify account to access the artist profile, but if that is absent,the follow button and the artist's profile image will not be shown.
+
+### Artist Profile\Music
+
+<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/8_DenzelMoreVideos.PNG" width="300">
+
+The artist's bio is selected by default. If you select Music, the inferior panel will change the bio information and will show popular music of the artist, according to the Youtube Search Result.
+
+<br>
+
+### Sharing content
+
+<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/10_ShareDenzel.PNG" width="300">
+
+The button placed on the inferior right corner of the main activity is the "Share Button". If pressed, it will open a new activity with a search bar. This searched bar acts a a Youtube Search bar. You can input and search whatever the user feels like, but only videdos following the format 'Artist/s - Song Name' will be accepted to be shared and sent to the server.
 
