@@ -132,7 +132,7 @@ There are activities non related to posts. These are:
 
 ### Search users
 
-<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/21_SearchUserPanel.png" width="600">
+<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/21_SearchUserPanel.png" width="300">
 
 This activity has a search bar that will look for users registered in the Discover app.
 
@@ -145,6 +145,6 @@ This activity has a search bar that will look for users registered in the Discov
 
 ### User Profile
 
-<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/22_UserProfilePanel.png" width="300">
+<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/22_UserProfilePanel.png" width="600">
 
 This activity shows information about a user: Posts, Likes and Users Followed. All the information here is of course interactive and uploadable to the server. For example: If a user likes one of the posts the profile shows, the given like is uploaded in the server and the 'Like Icon' will be updated.
