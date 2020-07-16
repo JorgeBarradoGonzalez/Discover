@@ -24,6 +24,7 @@ Being Discover a social network, it has some of the main components we all know:
 * Notifications
 * Follow/Unfollow Users
 
+<br>
 
 ### Login/SignIn 
 
@@ -31,6 +32,7 @@ Being Discover a social network, it has some of the main components we all know:
 
 This is a standard LogIn/SignIn Activity. However, I would like to mention that the HTTP requests are achieved using the HTTP Volley. <a>https://developer.android.com/training/volley</a>
 
+<br>
 
 ### MainActivity no info
 
@@ -38,6 +40,7 @@ This is a standard LogIn/SignIn Activity. However, I would like to mention that 
 
 This is Discover's Main Activity. It is empty because the user has not posted anything yet and neither are they following another user who has. If one of these was the opposite, the screen would show the corresponding "Shares"
 
+<br>
 
 ### MainActivity with info
 
@@ -47,6 +50,7 @@ This is Discover's Main Activity but with posts shared by users. These posts  ar
 
 The lists are built using RecyclerView <a>https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView</a>
 
+<br>
 
 ### 'Shares'
 
@@ -66,4 +70,21 @@ A couple of annotation regarding Shares:
 
 1. The video contained in the 'Share' card, is playable thanks to the library android-youtube-player of the user PierfrancescoSoffritti <a>https://github.com/PierfrancescoSoffritti/android-youtube-player</a> The insertion of the video was intended also with Youtube API but it was not possible. I looked for alternatives and this was the best I found. I completely recommend the library. It is flexible so you can modify it if you so need.
 
-2. Shares information is filled in the RecyclerView process. Several threads are called for this purpouse, including if the Share the user is seeing is already liked by them.
+2. Shares information is filled in the RecyclerView process. Several threads are called for this purpouse, including if the Share the user is seeing is already liked by them. Depending on the result, the like button shows a different color.
+
+<br>
+
+### 'See Artist' Button
+
+<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/6_Spotify.jpg" width="300">
+
+Discover uses the Spotify API. If the user clicks on the 'See Artist' icon attached to every Share, Discover will communicate with the Spotify app if the user has it installed on their device. If that is the case, the activity above will pop-up, so it can register your authorization for modifying your Spotify account.
+
+This modication exists because from Discover you can follow or unfollow an artist on Spotify. Discover also uses the Spotify API to manage some of the artist information displayed on the screen, like the artist image. You can see the artist profile in the next screenshot.
+
+<br>
+
+### Artist Profile
+
+<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/7_DenzelProfile.PNG" width="300">
+
