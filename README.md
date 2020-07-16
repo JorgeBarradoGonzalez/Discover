@@ -132,7 +132,7 @@ There are activities non related to posts. These are:
 
 ### Search users
 
-<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/21_SearchUserPanel.png" width="300">
+<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/21_SearchUserPanel.png" width="600">
 
 This activity has a search bar that will look for users registered in the Discover app.
 
@@ -148,3 +148,21 @@ This activity has a search bar that will look for users registered in the Discov
 <img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/22_UserProfilePanel.png" width="600">
 
 This activity shows information about a user: Posts, Likes and Users Followed. All the information here is of course interactive and uploadable to the server. For example: If a user likes one of the posts the profile shows, the given like is uploaded in the server and the 'Like Icon' will be updated.
+
+<br>
+
+### Notifications
+
+<img src="https://github.com/JorgeBarradoGonzalez/Discover/blob/images/23_NotificationsPanel.png" width="600">
+
+Every time a users signs in, the server will verify if there are Unseen Notifications  by the user. These notification ocurr when a user comments on a post. This action will upload the shared comment and create an Unseen Notification that the replied poster has to see.
+
+As said, very time a users signs in, the server will verify if there are Unseen Notifications. If that is the case, it will be notified to the user, who can check these "Unseen Notifications" in the Notifications Activity.
+
+Once the user opens this activity, every notification shown that is marked as 'Unseen' will be updated to the server with the 'Seen' status, so it is not notified again to the user.
+
+<br>
+
+### End Session
+
+This option deletes every stored information about Discover in the device and will send the user back to the Signin/Signup Activity
